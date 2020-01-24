@@ -1,7 +1,7 @@
 /* global describe, it, before */
 
 import chai from 'chai';
-import { addOne, addTwo, functions } from '../lib/test-import';
+import { addOne, addTwo, functions } from '../src';
 
 
 chai.expect();

@@ -1,9 +1,9 @@
-function addOne(a) {
+export function addOne(a) {
   return a + 1;
 }
 
-function addTwo(a) {
+export function addTwo(a) {
   return a + 2;
 }
 
-export { addOne, addTwo };
+export default { addOne, addTwo };
